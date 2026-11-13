@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 356" width="100%" height="100%">
+  <defs>
+    <linearGradient id="projBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c10" />
+      <stop offset="100%" stop-color="#10141c" />
+    </linearGradient>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+      .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      @keyframes pulseDot { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+      .pulse-dot { animation: pulseDot 2.4s infinite ease-in-out; }
+    </style>
+  </defs>
+  <rect width="1200" height="356" rx="20" fill="url(#projBg)" stroke="#262f3d" stroke-width="1.5" />
+  <text x="28" y="34" fill="#d6c39f" font-size="11" font-weight="800" letter-spacing="2" class="font-mono">
+    SELECTED OPEN-SOURCE LABS &amp; PRODUCTION SYSTEMS
+  </text>
+  
+  <g transform="translate(26, 54)">
+    <rect width="372" height="128" rx="14" fill="#121720" stroke="#d6c39f" stroke-width="1.2" stroke-opacity="0.50" />
+    <circle cx="22" cy="24" r="4.2" fill="#d6c39f" class="pulse-dot" />
+    <text x="34" y="28" fill="#d6c39f" font-size="10" font-weight="800" letter-spacing="1.2" class="font-mono">OPEN SOURCE · 2D CAD &amp; STEP</text>
+    <text x="20" y="54" fill="#f1f5f9" font-size="16" font-weight="800" class="font-sans">CHAMFER</text>
+    <text x="20" y="76" fill="#cbd5e1" font-size="11.5" class="font-sans">Millimeter 2D CAD workbench, manufacturing DRC verifier</text>
+    <text x="20" y="93" fill="#cbd5e1" font-size="11.5" class="font-sans">&amp; STEP solid bridge.</text>
+    <text x="20" y="114" fill="#64748b" font-size="10.5" font-weight="700" class="font-mono">JavaScript · Python · build123d · R2010 DXF</text>
+  </g>
+  <g transform="translate(414, 54)">
+    <rect width="372" height="128" rx="14" fill="#121720" stroke="#8da2b5" stroke-width="1.2" stroke-opacity="0.50" />
+    <circle cx="22" cy="24" r="4.2" fill="#8da2b5" class="pulse-dot" />
+    <text x="34" y="28" fill="#8da2b5" font-size="10" font-weight="800" letter-spacing="1.2" class="font-mono">GPU LAB · INFERENCE</text>
+    <text x="20" y="54" fill="#f1f5f9" font-size="16" font-weight="800" class="font-sans">LOCAL LLM LAB</text>
+    <text x="20" y="76" fill="#cbd5e1" font-size="11.5" class="font-sans">Quantized local model serving (AWQ/GGUF), KV-cache</text>
+    <text x="20" y="93" fill="#cbd5e1" font-size="11.5" class="font-sans">tuning &amp; latency benchmarks.</text>
+    <text x="20" y="114" fill="#64748b" font-size="10.5" font-weight="700" class="font-mono">vLLM · Ollama · CUDA · PyTorch</text>
+  </g>
+  <g transform="translate(802, 54)">
+    <rect width="372" height="128" rx="14" fill="#121720" stroke="#84a59d" stroke-width="1.2" stroke-opacity="0.50" />
+    <circle cx="22" cy="24" r="4.2" fill="#84a59d" class="pulse-dot" />
+    <text x="34" y="28" fill="#84a59d" font-size="10" font-weight="800" letter-spacing="1.2" class="font-mono">ARCHITECTURE · RETRIEVAL</text>
+    <text x="20" y="54" fill="#f1f5f9" font-size="16" font-weight="800" class="font-sans">HYBRID RAG ENGINE</text>
+    <text x="20" y="76" fill="#cbd5e1" font-size="11.5" class="font-sans">Permission-aware vector + BM25 retrieval, cross-encoder</text>
+    <text x="20" y="93" fill="#cbd5e1" font-size="11.5" class="font-sans">reranking &amp; MCP tools.</text>
+    <text x="20" y="114" fill="#64748b" font-size="10.5" font-weight="700" class="font-mono">Qdrant · FastAPI · BM25 · MCP</text>
+  </g>
+  <g transform="translate(26, 198)">
+    <rect width="372" height="128" rx="14" fill="#121720" stroke="#c4b59b" stroke-width="1.2" stroke-opacity="0.50" />
+    <circle cx="22" cy="24" r="4.2" fill="#c4b59b" class="pulse-dot" />
+    <text x="34" y="28" fill="#c4b59b" font-size="10" font-weight="800" letter-spacing="1.2" class="font-mono">SYSTEM DESIGN · WORKFLOWS</text>
+    <text x="20" y="54" fill="#f1f5f9" font-size="16" font-weight="800" class="font-sans">STATEFUL EVENT BUS</text>
+    <text x="20" y="76" fill="#cbd5e1" font-size="11.5" class="font-sans">Idempotent workflow engine with auditable state</text>
+    <text x="20" y="93" fill="#cbd5e1" font-size="11.5" class="font-sans">transitions and outage guards.</text>
+    <text x="20" y="114" fill="#64748b" font-size="10.5" font-weight="700" class="font-mono">TypeScript · Event Bus · PostgreSQL · Redis</text>
+  </g>
+  <g transform="translate(414, 198)">
+    <rect width="372" height="128" rx="14" fill="#121720" stroke="#94a3b8" stroke-width="1.2" stroke-opacity="0.50" />
+    <circle cx="22" cy="24" r="4.2" fill="#94a3b8" class="pulse-dot" />
+    <text x="34" y="28" fill="#94a3b8" font-size="10" font-weight="800" letter-spacing="1.2" class="font-mono">GRAPHICS · VIEWPORTS</text>
+    <text x="20" y="54" fill="#f1f5f9" font-size="16" font-weight="800" class="font-sans">HALFTONE &amp; SHADER LAB</text>
+    <text x="20" y="76" fill="#cbd5e1" font-size="11.5" class="font-sans">Copperplate halftone dot-matrix shaders, precision 2D</text>
+    <text x="20" y="93" fill="#cbd5e1" font-size="11.5" class="font-sans">canvas &amp; static SSR.</text>
+    <text x="20" y="114" fill="#64748b" font-size="10.5" font-weight="700" class="font-mono">Next.js · TypeScript · Canvas 2D / WebGL</text>
+  </g>
+  <g transform="translate(802, 198)">
+    <rect width="372" height="128" rx="14" fill="#121720" stroke="#a69f98" stroke-width="1.2" stroke-opacity="0.50" />
+    <circle cx="22" cy="24" r="4.2" fill="#a69f98" class="pulse-dot" />
+    <text x="34" y="28" fill="#a69f98" font-size="10" font-weight="800" letter-spacing="1.2" class="font-mono">PRODUCTION · INFRASTRUCTURE</text>
+    <text x="20" y="54" fill="#f1f5f9" font-size="16" font-weight="800" class="font-sans">AEONAVIS EDGE CLOUD</text>
+    <text x="20" y="76" fill="#cbd5e1" font-size="11.5" class="font-sans">Multi-app production architecture, Cloudflare Edge</text>
+    <text x="20" y="93" fill="#cbd5e1" font-size="11.5" class="font-sans">Workers, TOTP MFA &amp; WAF.</text>
+    <text x="20" y="114" fill="#64748b" font-size="10.5" font-weight="700" class="font-mono">Cloudflare Workers · Docker · WireGuard</text>
+  </g>
+</svg>

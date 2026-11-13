@@ -1,0 +1,333 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 182" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mqBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0c10" />
+      <stop offset="50%" stop-color="#10141c" />
+      <stop offset="100%" stop-color="#0a0c10" />
+    </linearGradient>
+    <linearGradient id="fadeLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0c10" stop-opacity="1" />
+      <stop offset="100%" stop-color="#0a0c10" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="fadeRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0c10" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0a0c10" stop-opacity="1" />
+    </linearGradient>
+    <clipPath id="mqClip">
+      <rect x="2" y="2" width="1196" height="178" rx="18" />
+    </clipPath>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+      .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      @keyframes scrollLeft {
+        0% { transform: translate(0px, 48px); }
+        100% { transform: translate(-2424px, 48px); }
+      }
+      @keyframes scrollRight {
+        0% { transform: translate(-2424px, 112px); }
+        100% { transform: translate(0px, 112px); }
+      }
+      .marquee-left { animation: scrollLeft 36s linear infinite; }
+      .marquee-right { animation: scrollRight 36s linear infinite; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#mqClip)">
+    <rect width="1200" height="182" rx="18" fill="url(#mqBg)" stroke="#262f3d" stroke-width="1.5" />
+    <text x="28" y="29" fill="#d6c39f" font-size="11" font-weight="800" letter-spacing="2" class="font-mono">
+      CORE ENGINEERING, AI RUNTIME, RETRIEVAL &amp; EDGE INFRASTRUCTURE
+    </text>
+    <g transform="translate(0, 48)" class="marquee-left">
+      <g transform="translate(0, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#d6c39f" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#d6c39f" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">CHAMFER CAD</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">2D DRC &amp; STEP Bridge</text>
+      </g>
+      <g transform="translate(202, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#8da2b5" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#8da2b5" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">BUILD123D · OCCT</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">B-Rep Solid Kernel</text>
+      </g>
+      <g transform="translate(404, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#84a59d" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#84a59d" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">MCP PROTOCOL</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Schema Tool Servers</text>
+      </g>
+      <g transform="translate(606, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#a69f98" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#a69f98" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">vLLM ENGINE</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">High-Throughput LLM</text>
+      </g>
+      <g transform="translate(808, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#d6c39f" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#d6c39f" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">OLLAMA · GGUF</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Local Model Runner</text>
+      </g>
+      <g transform="translate(1010, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#8da2b5" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#8da2b5" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">NVIDIA CUDA</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Quantized Compute</text>
+      </g>
+      <g transform="translate(1212, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#84a59d" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#84a59d" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">PYTORCH</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Deep Learning</text>
+      </g>
+      <g transform="translate(1414, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#a69f98" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#a69f98" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">QDRANT</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Hybrid Vector DB</text>
+      </g>
+      <g transform="translate(1616, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#d6c39f" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#d6c39f" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">LANGGRAPH</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Stateful Workflows</text>
+      </g>
+      <g transform="translate(1818, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#8da2b5" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#8da2b5" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">PYTHON 3.12</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Systems &amp; Geometry</text>
+      </g>
+      <g transform="translate(2020, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#84a59d" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#84a59d" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">FASTAPI</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Async Microservices</text>
+      </g>
+      <g transform="translate(2222, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#a69f98" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#a69f98" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">PYTEST · VITEST</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Verification Suites</text>
+      </g>
+      <g transform="translate(2424, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#d6c39f" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#d6c39f" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">CHAMFER CAD</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">2D DRC &amp; STEP Bridge</text>
+      </g>
+      <g transform="translate(2626, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#8da2b5" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#8da2b5" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">BUILD123D · OCCT</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">B-Rep Solid Kernel</text>
+      </g>
+      <g transform="translate(2828, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#84a59d" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#84a59d" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">MCP PROTOCOL</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Schema Tool Servers</text>
+      </g>
+      <g transform="translate(3030, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#a69f98" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#a69f98" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">vLLM ENGINE</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">High-Throughput LLM</text>
+      </g>
+      <g transform="translate(3232, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#d6c39f" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#d6c39f" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">OLLAMA · GGUF</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Local Model Runner</text>
+      </g>
+      <g transform="translate(3434, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#8da2b5" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#8da2b5" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">NVIDIA CUDA</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Quantized Compute</text>
+      </g>
+      <g transform="translate(3636, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#84a59d" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#84a59d" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">PYTORCH</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Deep Learning</text>
+      </g>
+      <g transform="translate(3838, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#a69f98" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#a69f98" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">QDRANT</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Hybrid Vector DB</text>
+      </g>
+      <g transform="translate(4040, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#d6c39f" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#d6c39f" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">LANGGRAPH</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Stateful Workflows</text>
+      </g>
+      <g transform="translate(4242, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#8da2b5" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#8da2b5" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">PYTHON 3.12</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Systems &amp; Geometry</text>
+      </g>
+      <g transform="translate(4444, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#84a59d" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#84a59d" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">FASTAPI</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Async Microservices</text>
+      </g>
+      <g transform="translate(4646, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#a69f98" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#a69f98" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">PYTEST · VITEST</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Verification Suites</text>
+      </g></g>
+    <g transform="translate(0, 112)" class="marquee-right">
+      <g transform="translate(0, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#8da2b5" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#8da2b5" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">NEXT.JS · REACT</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">SSR &amp; Web Apps</text>
+      </g>
+      <g transform="translate(202, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#84a59d" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#84a59d" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">TYPESCRIPT</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Strict Type System</text>
+      </g>
+      <g transform="translate(404, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#a69f98" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#a69f98" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">CANVAS · WEBGL</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">2D CAD &amp; Shaders</text>
+      </g>
+      <g transform="translate(606, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#d6c39f" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#d6c39f" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">TAILWIND CSS</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">UI Architecture</text>
+      </g>
+      <g transform="translate(808, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#8da2b5" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#8da2b5" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">CLOUDFLARE</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Workers &amp; Zero Trust</text>
+      </g>
+      <g transform="translate(1010, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#84a59d" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#84a59d" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">POSTGRESQL</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Relational &amp; pgvector</text>
+      </g>
+      <g transform="translate(1212, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#a69f98" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#a69f98" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">REDIS</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Queues &amp; State Cache</text>
+      </g>
+      <g transform="translate(1414, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#d6c39f" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#d6c39f" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">EZDXF · R2010</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">CAM Interoperability</text>
+      </g>
+      <g transform="translate(1616, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#8da2b5" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#8da2b5" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">DOCKER</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Container Runtime</text>
+      </g>
+      <g transform="translate(1818, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#84a59d" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#84a59d" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">LINUX · NGINX</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Self-Hosted Nodes</text>
+      </g>
+      <g transform="translate(2020, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#a69f98" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#a69f98" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">WIREGUARD</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Encrypted Mesh VPN</text>
+      </g>
+      <g transform="translate(2222, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#d6c39f" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#d6c39f" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">GITHUB ACTIONS</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">CI &amp; CodeQL Gates</text>
+      </g>
+      <g transform="translate(2424, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#8da2b5" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#8da2b5" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">NEXT.JS · REACT</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">SSR &amp; Web Apps</text>
+      </g>
+      <g transform="translate(2626, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#84a59d" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#84a59d" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">TYPESCRIPT</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Strict Type System</text>
+      </g>
+      <g transform="translate(2828, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#a69f98" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#a69f98" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">CANVAS · WEBGL</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">2D CAD &amp; Shaders</text>
+      </g>
+      <g transform="translate(3030, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#d6c39f" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#d6c39f" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">TAILWIND CSS</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">UI Architecture</text>
+      </g>
+      <g transform="translate(3232, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#8da2b5" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#8da2b5" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">CLOUDFLARE</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Workers &amp; Zero Trust</text>
+      </g>
+      <g transform="translate(3434, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#84a59d" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#84a59d" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">POSTGRESQL</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Relational &amp; pgvector</text>
+      </g>
+      <g transform="translate(3636, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#a69f98" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#a69f98" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">REDIS</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Queues &amp; State Cache</text>
+      </g>
+      <g transform="translate(3838, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#d6c39f" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#d6c39f" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">EZDXF · R2010</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">CAM Interoperability</text>
+      </g>
+      <g transform="translate(4040, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#8da2b5" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#8da2b5" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">DOCKER</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Container Runtime</text>
+      </g>
+      <g transform="translate(4242, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#84a59d" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#84a59d" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">LINUX · NGINX</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Self-Hosted Nodes</text>
+      </g>
+      <g transform="translate(4444, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#a69f98" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#a69f98" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">WIREGUARD</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">Encrypted Mesh VPN</text>
+      </g>
+      <g transform="translate(4646, 0)">
+        <rect width="188" height="52" rx="12" fill="#121720" stroke="#d6c39f" stroke-width="1.1" stroke-opacity="0.45" />
+        <circle cx="20" cy="26" r="5" fill="#d6c39f" />
+        <text x="36" y="23" fill="#f1f5f9" font-size="11.5" font-weight="800" letter-spacing="0.6" class="font-mono">GITHUB ACTIONS</text>
+        <text x="36" y="39" fill="#94a3b8" font-size="10" font-weight="600" class="font-sans">CI &amp; CodeQL Gates</text>
+      </g></g>
+    <rect x="0" y="40" width="70" height="140" fill="url(#fadeLeft)" />
+    <rect x="1130" y="40" width="70" height="140" fill="url(#fadeRight)" />
+  </g>
+</svg>

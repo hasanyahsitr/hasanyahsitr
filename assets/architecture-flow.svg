@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 290" width="100%" height="100%">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c10" />
+      <stop offset="100%" stop-color="#121720" />
+    </linearGradient>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+      .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      @keyframes dashFlow {
+        to { stroke-dashoffset: -48; }
+      }
+      .wire-flow {
+        stroke-dasharray: 8 8;
+        animation: dashFlow 1.8s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="290" rx="20" fill="url(#archBg)" stroke="#262f3d" stroke-width="1.5" />
+
+  <text x="34" y="36" fill="#d6c39f" font-size="11" font-weight="800" letter-spacing="2" class="font-mono">
+    END-TO-END AI RUNTIME, HYBRID RETRIEVAL, DETERMINISTIC CAD &amp; EDGE PIPELINE
+  </text>
+
+  <g fill="none" stroke-width="2.2">
+    <path id="wire1" d="M 248 155 C 275 155, 285 110, 312 110" stroke="#8da2b5" class="wire-flow" />
+    <path id="wire2" d="M 248 155 C 275 155, 285 205, 312 205" stroke="#a69f98" class="wire-flow" />
+    <path id="wire3" d="M 552 110 C 585 110, 595 155, 628 155" stroke="#d6c39f" class="wire-flow" />
+    <path id="wire4" d="M 552 205 C 585 205, 595 155, 628 155" stroke="#84a59d" class="wire-flow" />
+    <path id="wire5" d="M 868 155 L 932 155" stroke="#cbd5e1" class="wire-flow" />
+  </g>
+
+  <circle r="4" fill="#8da2b5">
+    <animateMotion dur="2.2s" repeatCount="indefinite" path="M 248 155 C 275 155, 285 110, 312 110" />
+  </circle>
+  <circle r="4" fill="#a69f98">
+    <animateMotion dur="2.5s" repeatCount="indefinite" path="M 248 155 C 275 155, 285 205, 312 205" />
+  </circle>
+  <circle r="4" fill="#d6c39f">
+    <animateMotion dur="2.1s" repeatCount="indefinite" path="M 552 110 C 585 110, 595 155, 628 155" />
+  </circle>
+  <circle r="4" fill="#84a59d">
+    <animateMotion dur="2.4s" repeatCount="indefinite" path="M 552 205 C 585 205, 595 155, 628 155" />
+  </circle>
+  <circle r="4.5" fill="#cbd5e1">
+    <animateMotion dur="1.6s" repeatCount="indefinite" path="M 868 155 L 932 155" />
+  </circle>
+
+  <g transform="translate(34, 98)">
+    <rect width="214" height="114" rx="14" fill="#121720" stroke="#8da2b5" stroke-width="1.3" stroke-opacity="0.7" />
+    <text x="18" y="28" fill="#8da2b5" font-size="10.5" font-weight="800" letter-spacing="1.2" class="font-mono">01 / EDGE &amp; ACCESS</text>
+    <text x="18" y="52" fill="#f1f5f9" font-size="15" font-weight="800" class="font-sans">Cloudflare Zero Trust</text>
+    <text x="18" y="74" fill="#94a3b8" font-size="11.5" class="font-sans">Edge Workers · WAF · Routing</text>
+    <text x="18" y="94" fill="#64748b" font-size="10.5" class="font-mono">WireGuard Mesh · Custom DNS</text>
+  </g>
+
+  <g transform="translate(312, 62)">
+    <rect width="240" height="92" rx="14" fill="#121720" stroke="#d6c39f" stroke-width="1.3" stroke-opacity="0.7" />
+    <text x="18" y="25" fill="#d6c39f" font-size="10.5" font-weight="800" letter-spacing="1.2" class="font-mono">02A / PROTOCOLS &amp; CAD</text>
+    <text x="18" y="47" fill="#f1f5f9" font-size="14.5" font-weight="800" class="font-sans">MCP &amp; Chamfer Verifier</text>
+    <text x="18" y="67" fill="#94a3b8" font-size="11.5" class="font-sans">JSON Schema · Analytical DRC</text>
+    <text x="18" y="83" fill="#64748b" font-size="10" class="font-mono">R2010 DXF · Open CASCADE STEP</text>
+  </g>
+
+  <g transform="translate(312, 166)">
+    <rect width="240" height="92" rx="14" fill="#121720" stroke="#a69f98" stroke-width="1.3" stroke-opacity="0.7" />
+    <text x="18" y="25" fill="#c4b59b" font-size="10.5" font-weight="800" letter-spacing="1.2" class="font-mono">02B / LOCAL GPU LAB</text>
+    <text x="18" y="47" fill="#f1f5f9" font-size="14.5" font-weight="800" class="font-sans">vLLM · Ollama · CUDA</text>
+    <text x="18" y="67" fill="#94a3b8" font-size="11.5" class="font-sans">Quantized AWQ &amp; GGUF Models</text>
+    <text x="18" y="83" fill="#64748b" font-size="10" class="font-mono">KV-Cache &amp; Latency Tuning</text>
+  </g>
+
+  <g transform="translate(628, 98)">
+    <rect width="240" height="114" rx="14" fill="#121720" stroke="#84a59d" stroke-width="1.3" stroke-opacity="0.7" />
+    <text x="18" y="28" fill="#84a59d" font-size="10.5" font-weight="800" letter-spacing="1.2" class="font-mono">03 / MEMORY &amp; BUS</text>
+    <text x="18" y="52" fill="#f1f5f9" font-size="15" font-weight="800" class="font-sans">Qdrant + FastAPI + Redis</text>
+    <text x="18" y="74" fill="#94a3b8" font-size="11.5" class="font-sans">Dense + BM25 Hybrid Reranking</text>
+    <text x="18" y="94" fill="#64748b" font-size="10.5" class="font-mono">PostgreSQL pgvector · Event Bus</text>
+  </g>
+
+  <g transform="translate(932, 98)">
+    <rect width="234" height="114" rx="14" fill="#121720" stroke="#94a3b8" stroke-width="1.3" stroke-opacity="0.7" />
+    <text x="18" y="28" fill="#e2e8f0" font-size="10.5" font-weight="800" letter-spacing="1.2" class="font-mono">04 / PRODUCTION</text>
+    <text x="18" y="52" fill="#f1f5f9" font-size="15" font-weight="800" class="font-sans">Next.js · TypeScript</text>
+    <text x="18" y="74" fill="#94a3b8" font-size="11.5" class="font-sans">Aeonavis · Chamfer Workbench</text>
+    <text x="18" y="94" fill="#64748b" font-size="10.5" class="font-mono">Static SSR · Canvas 2D &amp; WebGL</text>
+  </g>
+</svg>
